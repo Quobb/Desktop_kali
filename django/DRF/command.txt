@@ -1,0 +1,12 @@
+ python manage.py migrate 
+  python mamage.py makemigration
+   python mamage.py runserver
+   pip install coverage
+   python manage.py createsuperuser
+   coverage html
+   pip install djangorestframework
+   coverage run --omit='*/venv/*' manage.py test
+   python makemigration --dry-run --verbosity 3
+   pip install djangorestframework
+pip install markdown       # Markdown support for the browsable API.
+pip install django-filter
